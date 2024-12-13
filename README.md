@@ -15,7 +15,7 @@ This project analyzes historical U.S. federal budget allocations from 2010 to 20
 
 ## Dataset
 The dataset is sourced from Kaggle:
-- [USA Budget Authority by Agency 1976–2022]([https://www.kaggle.com/datasets](https://www.kaggle.com/datasets/mfaaris/usa-budget-authority-by-agency-19762022)
+- [USA Budget Authority by Agency 1976–2022]([https://www.kaggle.com/datasets/mfaaris/usa-budget-authority-by-agency-19762022])
 
 ## Results
 - Exponential Smoothing and ARIMA provided the most accurate forecasts.
