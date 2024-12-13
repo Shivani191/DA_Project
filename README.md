@@ -1,42 +1,41 @@
-# DA_Project
-Using time series analysis to forecast U.S. federal budget allocations and support strategic planning.
+# Federal Budget Trends Analysis
 
-Prerequisites:
-Before running the code, ensure you have the following installed:
-Python 3.8 or later
-Jupyter Notebook or Jupyter Lab
-Required Python libraries:
-pandas
-numpy
-matplotlib
-seaborn (optional for advanced visualizations)
+## Overview
+This project analyzes historical U.S. federal budget allocations from 2010 to 2022 and applies various time series forecasting techniques to predict future spending patterns. The goal is to provide insights into budget trends across key government departments.
 
-How to Run
-Jupyter Notebook:
-Open the DAProject.ipynb file in Jupyter Notebook or Jupyter Lab.
-Ensure the budget.csv file is in the same directory as the notebook.
+## Features
+- **Data Preprocessing**: Handling missing values, filtering data, and consistency checks.
+- **Exploratory Analysis**: Summary statistics, trend visualization, and correlation analysis.
+- **Forecasting Models**:
+  - Linear Regression
+  - Naïve Baseline Model
+  - Exponential Smoothing
+  - ARIMA
+- **Evaluation Metrics**: Mean Squared Error (MSE) and Mean Absolute Error (MAE) to assess model performance.
 
-Google Colab:
-Upload Files to Colab:
-Open Google Colab.
-Create a new notebook or open an existing one.
-Upload the DAProject.ipynb file by clicking on the folder icon in the left sidebar, then clicking the upload icon.
-Similarly, upload the budget.csv file.
-Ensure the dataset file is in the same directory as the notebook. If necessary, update the file paths in the notebook to match the location of budget.csv.
+## Dataset
+The dataset is sourced from Kaggle:
+- [USA Budget Authority by Agency 1976–2022](https://www.kaggle.com/datasets)
 
-Run the cells sequentially to:
-Load and preprocess the data.
-Perform exploratory data analysis (EDA).
-Generate visualizations and insights.
+## Results
+- Exponential Smoothing and ARIMA provided the most accurate forecasts.
+- Visualizations demonstrate stable trends in certain departments and volatility in others.
+- Model performance metrics (MSE and MAE) are included for comparative analysis.
 
-Features:
-Data Loading: Reads budget data from budget.csv.
-Preprocessing: Cleans and organizes data for analysis.
-Visualization: Includes bar charts, line graphs, and other visualizations to highlight budget trends and insights.
+## Technologies Used
+- Python
+- Libraries: Pandas, NumPy, Matplotlib, Seaborn, Statsmodels, Scikit-learn
+- Jupyter Notebook / Google Colab
 
-Output:
-The analysis provides insights into:
-Budget allocation trends over years.
-Significant changes in various budget categories.
-Correlations between different budgetary components.
-
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/repository.git
+Usage
+Open the Jupyter Notebook or Colab file.
+Run the preprocessing steps to clean the data.
+Execute the forecasting models and analyze their performance.
+Visualize the results for key departments.
+Authors
+Thirumala Devi Kola: Data preparation, linear regression forecasting.
+Shivani Jilukara: Visualization, ARIMA model analysis, report writing.
